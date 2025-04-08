@@ -1,0 +1,98 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.container {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    
+}
+
+.container .esquerda {
+    display: flex;
+    width: 50%;
+    height: 100%;
+    color: white;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #6194ef;
+    border-top-right-radius: 150px;
+    border-bottom-right-radius: 150px;
+}
+
+.container .esquerda h1 {
+    font-size: 50px;
+}
+
+.container .esquerda p {
+    font-size: 30px;
+}
+
+.container .esquerda button {
+    width: 200px;
+    height: 50px;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    font-weight: bold;
+    border-radius: 10px;
+    border: 1px solid white;
+    background-color: transparent;
+}
+
+.container .direita {
+    display: flex;
+    width: 50%;
+    height: 100%;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.container .direita h1 {
+    font-size: 50px;
+}
+
+.container .direita .inp {
+    display: flex;
+    width: 80%;
+    height: 50px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    background-color: #ededed;
+}
+
+.container .direita .inp .campo {
+    width: 90%;
+    height: 100%;
+}
+
+.container .direita .inp .campo input {
+    width: 100%;
+    height: 100%;
+    border: none;
+    outline: none;
+    font-size: 20px;
+    border-radius: 10px;
+    padding-left: 10px;
+    background-color: white;
+    background-color: transparent;
+}
+
+.container .direita .inp .icone {
+    display: flex;
+    width: 10%;
+    height: 100%;
+    color: #7c7c7c;
+    font-size: 18px;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
