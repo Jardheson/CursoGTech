@@ -1,0 +1,280 @@
+ * {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+ }
+
+ body {
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     background: #f9f9f9;
+     color: #333;
+     background-size: cover;
+     background-position: center;
+     background-repeat: no-repeat;
+     min-height: 100vh;
+ }
+
+ header {
+
+     background: linear-gradient(to right, #01cc01, #24da04);
+     color: white;
+     text-align: center;
+     padding: 2rem 1rem;
+ }
+
+ header h1 {
+     font-size: 2.5rem;
+     margin-bottom: 0.5rem;
+ }
+
+ .nav {
+     display: flex;
+     color: white;
+     list-style: none;
+     padding: 0;
+     align-items: center;
+     list-style: none;
+     justify-content: center;
+     text-decoration: none;
+     max-width: 1100px;
+     gap: 20px;
+     margin: 0 auto;
+     font-size: 1.2rem;
+     font-weight: bold;
+     align-content: space-between;
+ }
+
+ .nav:hover {
+     color: white;
+     text-decoration: none;
+ }
+
+ .logo {
+     display: flex;
+     font-size: 2rem;
+     font-weight: bold;
+     color: #033704;
+     text-decoration: none;
+ }
+
+ a {
+     display: flex;
+     color: white;
+     text-decoration: none;
+     padding: 0.5rem 1rem;
+     border-radius: 20px;
+     transition: background 0.3s;
+ }
+
+ .menu-section {
+     max-width: 1100px;
+     margin: 2rem auto;
+     padding: 1rem;
+     text-align: center;
+ }
+
+ .menu-section h2 {
+     font-size: 2rem;
+     margin-bottom: 0.5rem;
+ }
+
+ .subtitle {
+     font-style: italic;
+     color: #555;
+     margin-bottom: 1.5rem;
+ }
+
+ .filters {
+     display: flex;
+     justify-content: center;
+     gap: 1rem;
+     flex-wrap: wrap;
+     margin-bottom: 2rem;
+ }
+
+ .filters button {
+     background: transparent;
+     border: 2px solid #0ede0e;
+     color: #070707;
+     padding: 0.5rem 1rem;
+     border-radius: 20px;
+     cursor: pointer;
+     transition: 0.3s;
+     font-weight: bold;
+ }
+
+ .filters .active,
+ .filters button:hover {
+     background: #0aec1d;
+     color: white;
+ }
+
+ a {
+     color: rgb(255, 255, 255);
+     text-decoration: none;
+     padding: 0.5rem 1rem;
+     border-radius: 20px;
+     transition: background 0.3s;
+ }
+
+ .contato-container {
+     max-width: 800px;
+     margin: 50px auto;
+     background: #fff;
+     padding: 40px;
+     border-radius: 15px;
+     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+ }
+
+ h1 {
+     text-align: center;
+     color: #010101;
+ }
+
+ .info-contato {
+     margin-top: 30px;
+     font-size: 18px;
+     color: #444;
+ }
+
+ .info-contato p {
+     margin: 10px 0;
+ }
+
+ .info-contato strong {
+     color: #000;
+ }
+
+ .horarios {
+     margin-top: 20px;
+ }
+
+ .horarios ul {
+     list-style: none;
+     padding: 0;
+ }
+
+ .horarios li {
+     padding: 5px 0;
+ }
+
+ .mapa {
+     margin-top: 30px;
+     border-radius: 10px;
+     overflow: hidden;
+ }
+
+ .whatsapp {
+     position: fixed;
+     bottom: 16px;
+     right: 16px;
+     z-index: 1000;
+ }
+
+ .whatsapp img {
+     width: 60px;
+     height: 60px;
+     border-radius: 50%;
+     box-shadow: 0 4px 8px rgb(14, 14, 14);
+     transition: transform 0.3s;
+ }
+
+ .whatsapp img:hover {
+     transform: scale(1.1);
+ }
+
+ iframe {
+     width: 100%;
+     height: 300px;
+     border: none;
+ }
+
+ footer {
+     text-align: center;
+     padding: 2rem 1rem;
+     background-color: #fff;
+     font-size: 0.9rem;
+     color: #aaa;
+     margin-top: 3rem;
+ }
+
+ @media screen and (max-width: 768px) {
+     .top {
+         flex-direction: column;
+         align-items: center;
+     }
+
+     .logo {
+         margin-bottom: 10px;
+     }
+
+     .nav {
+         position: static;
+         left: 0;
+     }
+
+ }
+
+ @media screen and (max-width: 768px) {
+     .heading {
+         flex-direction: column;
+         align-items: center;
+     }
+
+     .left {
+         text-align: center;
+     }
+
+     .right {
+         margin-top: 20px;
+     }
+ }
+
+ @media screen and (max-width: 768px) {
+     .left h1 {
+         font-size: 50px;
+     }
+
+     .left p:nth-child(1) {
+         font-size: 20px;
+     }
+
+     .left p:nth-child(3) {
+         font-size: 20px;
+     }
+
+     .left button {
+         width: 150px;
+         height: 40px;
+         font-size: 15px;
+     }
+ }
+
+ @media screen and (max-width: 768px) {
+     .SocialMedia {
+         width: 30px;
+         height: 150px;
+         font-size: 20px;
+     }
+ }
+
+ @media screen and (max-width: 1023px) {
+     .menu-section {
+         padding: 1rem;
+     }
+
+     .menu-section h2 {
+         font-size: 1.5rem;
+     }
+
+     .filters button {
+         padding: 0.5rem;
+         font-size: 0.9rem;
+     }
+ }
+
+ @media screen and (max-width: 768px) {
+     .SocialMedia i {
+         font-size: 20px;
+     }
+ }
